@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <div id="main">
+      <h3 id="display">0</h3>
+      <div id="numPad">
+        <div class="div">
+          <span id="n1" onclick="fn1()">1</span>
+          <span id="n2" onclick="fn2()">2</span>
+          <span id="n3" onclick="fn3()">3</span>
+          <span id="eraser" onclick="feraser()">eraser</span>
+        </div>
+        <div class="div">
+          <span id="n4" onclick="fn4()">4</span>
+          <span id="n5" onclick="fn5()">5</span>
+          <span id="n6" onclick="fn6()">6</span>
+          <span id="nAD" onclick="fnAD()">+</span>
+          <span id="nMN" onclick="fnMN()">-</span>
+        </div>
+        <div class="div">
+          <span id="n7" onclick="fn7()">7</span>
+          <span id="n8" onclick="fn8()">8</span>
+          <span id="n9" onclick="fn9()">9</span>
+          <span id="nML" onclick="fnML()">*</span>
+          <span id="nDV" onclick="fnDV()">/</span>
+        </div>
+        <div class="div">
+          <span id="nAC" onclick="fAC()">AC</span>
+          <span id="n0" onclick="fn0()">0</span>
+          <span id="nEQ" onclick="fnEQ()">=</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

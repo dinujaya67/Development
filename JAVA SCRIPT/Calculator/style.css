@@ -1,0 +1,85 @@
+#main{
+
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#numPad{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+span{
+    font-size: 45px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    cursor: pointer;
+}
+
+#eraser{
+    flex: 2;
+    width: 143px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    background: #ff0000;
+    color: #ff5f00;
+}
+
+#eraser:hover{
+    background: darkgreen;
+}
+
+#nAD{
+    width: 70px;
+    border: 1px solid black;
+}
+
+#nMN{
+    width: 70px;
+    border: 1px solid black;
+}
+
+#nML{
+    width: 70px;
+    border: 1px solid black;
+}
+
+#nDV{
+    width: 70px;
+    border: 1px solid black;
+}
+
+#nAC{
+    width: 59px;
+    border: 1px solid black;
+}
+
+#n0{
+    flex: 2;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#nEQ{
+    flex: 2;
+    width: 143px;
+    border: 1px solid black;
+}
+
